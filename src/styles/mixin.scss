@@ -1,0 +1,66 @@
+@mixin wh($width, $height: null) {
+    width: $width;
+    @if $height {
+      height: $height;
+    } @else {
+      height: $width;
+    }
+  }
+  
+  @mixin background-hover-active($hover, $active: $activeColor, $normal: null) {
+    @if $normal {
+      background-color: $normal;
+    }
+    &:hover {
+      background-color: $hover;
+    }
+    &:active {
+      background-color: $active;
+    }
+  }
+  
+  @mixin background-center($size) {
+    background: {
+      size: $size;
+      repeat: no-repeat;
+      position: center;
+    }
+  }
+  
+  @mixin flex-column($justifyContent: null, $alignItems: null) {
+    display: flex;
+    flex-direction: column;
+    @if $justifyContent {
+      justify-content: $justifyContent;
+    }
+    @if $alignItems {
+      align-items: $alignItems;
+    }
+  }
+  
+  @mixin position-top-left($zIndex: null) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @if $zIndex {
+      z-index: $zIndex;
+    }
+  }
+  
+  @mixin position-center($zIndex: null) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @if $zIndex {
+      z-index: $zIndex;
+    }
+  }
+  
+  @mixin text-ellipsis($whiteSpace: null) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @if $whiteSpace {
+      white-space: $whiteSpace;
+    }
+  }

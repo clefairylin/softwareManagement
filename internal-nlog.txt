@@ -1,0 +1,1722 @@
+2022-05-20 17:43:30.4735 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:43:30.4831 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4831 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:43:30.4890 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:43:30.5089 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:43:30.5089 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:43:30.5089 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:43:30.5089 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:43:30.5089 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:43:31.3107 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3177 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3347 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3497 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.3687 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.4277 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9354 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9354 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9444 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9444 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9444 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9444 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9973 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:31.9973 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0053 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0053 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0053 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0053 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0223 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0223 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0223 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0663 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0743 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0743 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0843 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0843 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0983 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0983 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0983 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.0983 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1152 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1152 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1152 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1152 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1302 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1302 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1302 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1302 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1452 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1632 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1632 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1632 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1772 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1952 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1952 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1952 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1952 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.1952 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2092 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2092 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2092 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2092 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2092 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2232 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2412 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2562 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2562 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2562 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2562 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:43:32.2562 Warn Type load exception. Exception: System.IO.FileLoadException: 未能加载文件或程序集“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+2022-05-20 17:44:35.0467 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:44:35.0522 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:44:35.0765 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:44:35.0765 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:44:35.0765 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:44:35.0848 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:44:35.0848 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:02.6130 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:02.6291 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6324 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6324 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6324 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6455 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6455 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:02.6455 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:02.6618 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:02.6879 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:02.7004 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:02.7004 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:02.7101 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:02.7101 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:51.9758 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:51.9758 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9758 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9758 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9915 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9915 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9915 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:49:51.9915 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:51.9915 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:49:52.0176 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:52.0224 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:52.0224 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:52.0224 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:49:52.0224 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:51:42.5964 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:51:42.6032 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6032 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6032 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6174 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6174 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6174 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:51:42.6308 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:51:42.6308 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:51:42.6586 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:51:42.6645 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:51:42.6812 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:51:42.6812 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:51:42.6926 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:57:26.2328 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:57:26.2425 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2425 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2425 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2425 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2425 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2577 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 17:57:26.2577 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:57:26.2577 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 17:57:26.2788 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:57:26.2788 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:57:26.2870 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:57:26.2870 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 17:57:26.2870 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:02:41.7413 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:02:41.7413 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.7575 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.7575 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.7719 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.8434 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.8606 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:02:41.8606 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:02:41.8831 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:02:41.9015 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:02:41.9195 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:02:41.9195 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:02:41.9270 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:02:41.9270 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:21:12.9860 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:21:12.9991 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:12.9991 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:13.0045 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:13.0045 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:13.0045 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:13.0045 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:21:13.0045 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:21:13.0321 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:21:13.0512 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:21:13.0614 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:21:13.0614 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:21:13.0683 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:21:13.0683 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:37:08.1039 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:37:08.1161 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1161 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1161 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1161 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1297 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1297 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+
+
+2022-05-20 18:37:08.1297 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:37:08.1297 Warn Type load exception. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. 系统找不到指定的文件。
+File name: 'System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+
+
+2022-05-20 18:37:08.1560 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:37:08.1624 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:37:08.1624 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverOneWayServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:37:08.1624 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverServer'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+
+2022-05-20 18:37:08.1624 Error Failed to add type 'NLog.LogReceiverService.ILogReceiverTwoWayClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. 系统找不到指定的文件。
+File name: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at NLog.Config.MethodFactory.ExtractClassMethods[TClassAttributeType,TMethodAttributeType](Type type)
+   at NLog.Config.ConfigurationItemFactory.<>c.<.ctor>b__14_0(Type classType)
+   at NLog.Config.MethodFactory.RegisterType(Type type, String itemNamePrefix)
+   at NLog.Config.MethodFactory.ScanTypes(Type[] types, String prefix)
+
+

@@ -1,0 +1,16 @@
+[
+    {
+        "key": "en",
+        "testPage": "This is an i18n demo page",
+        "swicthLanguage": "Swicth Language",
+        "TrayStartAtBoot": "Run at startup",
+        "TrayQuit": "Exit"
+    },
+    {
+        "key": "zh-cn",
+        "testPage": "这是一个 i18n 演示页面",
+        "swicthLanguage": "切换语言",
+        "TrayStartAtBoot": "开机时启动",
+        "TrayQuit": "退出"
+    }
+]
