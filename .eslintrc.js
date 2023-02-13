@@ -1,9 +1,10 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
+    'vue/setup-compiler-macros': true
   },
-  'extends': [
+  extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/typescript/recommended'
@@ -19,8 +20,9 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-empty-function': 'off',
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "no-case-declarations": 'off'
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    'no-case-declarations': 'off',
+    'vue/valid-v-on': 'off'
   },
   overrides: [
     {
@@ -32,5 +34,8 @@ module.exports = {
         jest: true
       }
     }
-  ]
+  ],
+  globals: {
+    NodeJS: true
+  }
 }

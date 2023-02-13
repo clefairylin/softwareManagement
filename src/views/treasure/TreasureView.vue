@@ -1,5 +1,5 @@
 <template>
-  Navigation.vue
+  TreasureView.vue
 </template>
 
 <script setup lang="ts">
@@ -7,6 +7,6 @@ import { ref } from 'vue'
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>

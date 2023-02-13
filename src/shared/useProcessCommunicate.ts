@@ -1,4 +1,4 @@
-import { ipcRenderer, OpenDialogOptions } from 'electron'
+import { ipcRenderer } from 'electron'
 import useEmitter from './useEmitter'
 
 
@@ -74,56 +74,9 @@ export default function useProcessCommunicate() {
     cb && cb(stdout)
   }
 
-  interface exportConfig {
-    title?: string
-    defaultPath: string
-    filters?: string[]
-  }
-
-  // 文件选择
-  const ipcFileSelect = async function (config: OpenDialogOptions, cb: (path: string, size: number) => void) {
-    const { path, size } = await ipcRenderer.invoke('fileSelect', config)
-    path && cb && cb(path, size)
-  }
-
-  // 图片选择
-  const ipcImageSelect = async function (): Promise<{ path: string, size: number, width: number, height: number }> {
-    const { path, size, width, height, error } = await ipcRenderer.invoke('imageSelect')
-    return new Promise((resolve, reject) => {
-      if (error) {
-        reject(error)
-      } else if (path && size) {
-        resolve({ path, size, width, height })
-      }
-    })
-  }
-
-  // 导出文件
-  const ipcExportFile = async function (config: exportConfig, cb: (filePath: string) => void) {
-    const { canceled, filePath } = await ipcRenderer.invoke('exportFile', {
-      title: config.title || '',
-      defaultPath: config.defaultPath,
-      filters: [{
-        name: '',
-        extensions: config.filters || []
-      }]
-    })
-    !canceled && cb && cb(filePath)
-  }
-
   // 打开网址
   const openUrl = function (url: string) {
     url && ipcRenderer.send('openUrl', url)
-  }
-
-  // 显示消息窗口
-  const IpcNotice = function (show: boolean, content = '') {
-    ipcRenderer.send('notice', show, content)
-  }
-
-  // 软件语言修改
-  const IpcLanguageChange = function (language: string) {
-    ipcRenderer.send('languageChange', language)
   }
 
   // 是否首次安装使用
@@ -139,9 +92,6 @@ export default function useProcessCommunicate() {
 
   const ipcEventRemove = function () {
     ipcRenderer.removeAllListeners('buildConnect')
-    ipcRenderer.removeAllListeners('wmDeviceChange')
-    ipcRenderer.removeAllListeners('rescan')
-    ipcRenderer.removeAllListeners('setNotification')
   }
 
   return {
@@ -156,12 +106,7 @@ export default function useProcessCommunicate() {
     ipcMainDownloadCancel,
     ipcExtractZip,
     ipcExec,
-    ipcFileSelect,
-    ipcImageSelect,
-    ipcExportFile,
     openUrl,
-    IpcNotice,
-    IpcLanguageChange,
     ipcEventListen,
     ipcEventRemove,
     ipcIsFirstRun

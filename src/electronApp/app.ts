@@ -19,7 +19,7 @@ import BackendServer from './backendServer'
 import SoftwareUpgrader from './softwareUpgrader'
 import { setI18nLanguage, i18n } from '@/utils/plugins/i18n'
 
-declare const __static: string;
+declare const __static: string
 
 interface extractCongfig {
   filePath: string
@@ -32,30 +32,30 @@ const isDevelopment = process.env.NODE_ENV !== 'production'
 const WM_DEVICECHANGE = 0x219
 const SYSTEM_LANGUAGE_MAP: Record<string, string> = {
   'en-us': 'en',
-  'de': 'de',
+  de: 'de',
   'de-at': 'de',
   'de-ch': 'de',
   'de-de': 'de',
-  'es': 'es',
+  es: 'es',
   'es-419': 'es',
-  'fr': 'fr',
+  fr: 'fr',
   'fr-ca': 'fr',
   'fr-ch': 'fr',
   'fr-fr': 'fr',
-  'pt': 'pt',
+  pt: 'pt',
   'pt-br': 'pt',
   'pt-pt': 'pt',
-  'ru': 'ru',
-  'uk': 'en',
+  ru: 'ru',
+  uk: 'en',
   'zh-cn': 'zh-cn',
   'zh-tw': 'zh-tw',
-  'ja': 'ja',
-  'ko': 'ko'
+  ja: 'ja',
+  ko: 'ko'
 }
 
 /**
  * 根据 processName 杀死进程
- * @param processNames 
+ * @param processNames
  * @returns
  */
 function processKill(processNames: string[]): Promise<void> {
@@ -66,7 +66,7 @@ function processKill(processNames: string[]): Promise<void> {
       exec(cmd, function (err, stdout) {
         stdout.split('\n').filter(function (line) {
           const [pname, pid] = line.trim().split(/\s+/)
-          if (processNames.some(name => pname.indexOf(name) >= 0)) {
+          if (processNames.some((name) => pname.indexOf(name) >= 0)) {
             logger.debug(pname, pid)
             parseInt(pid) && process.kill(parseInt(pid))
           }
@@ -113,15 +113,18 @@ export default class WindowApp {
       // 当运行第二个实例时,将会聚焦到myWindow这个窗口
       if (this.mainWindow) {
         if (!this.mainWindow.isVisible()) {
-          this.mainWindow.show();
+          this.mainWindow.show()
           this.mainWindow.setSkipTaskbar(false)
         }
-        this.mainWindow.focus();
+        this.mainWindow.focus()
       }
     })
     // Scheme must be registered before the app is ready
     protocol.registerSchemesAsPrivileged([
-      { scheme: 'app', privileges: { secure: true, standard: true, stream: true } }
+      {
+        scheme: 'app',
+        privileges: { secure: true, standard: true, stream: true }
+      }
     ])
     // Exit cleanly on request from parent process in development mode.
     if (isDevelopment) {
@@ -147,7 +150,10 @@ export default class WindowApp {
         }
       }
       // Init Language
-      this.language = this.store.get('language') as string || SYSTEM_LANGUAGE_MAP[app.getLocale().toLowerCase()] || 'zh-cn'
+      this.language =
+        (this.store.get('language') as string) ||
+        SYSTEM_LANGUAGE_MAP[app.getLocale().toLowerCase()] ||
+        'zh-cn'
       setI18nLanguage(this.language)
       this.store.set('languageTemp', this.language)
       // Register Iamge Protocol
@@ -157,7 +163,7 @@ export default class WindowApp {
       })
       // Reigster Shortcut
       app.on('browser-window-focus', () => {
-        globalShortcut.registerAll(['CommandOrControl+W'], () => { })
+        globalShortcut.registerAll(['CommandOrControl+W'], () => {})
       })
       app.on('browser-window-blur', () => {
         globalShortcut.unregister('CommandOrControl+W')
@@ -167,7 +173,7 @@ export default class WindowApp {
       // Creat Window And Tray
       this.createWindow()
       this.createTray()
-    });
+    })
     // Quit when all windows are closed.
     app.on('window-all-closed', () => {
       // On macOS it is common for applications and their menu bar
@@ -195,7 +201,6 @@ export default class WindowApp {
     ipcMain.on('minimize', () => {
       this.mainWindow.minimize()
     })
-
     ipcMain.handle('MaximizedValue', () => {
       return this.mainWindow.isMaximized()
     })
@@ -217,26 +222,32 @@ export default class WindowApp {
       this.downloadManager.create(url)
     })
     // zip 解压
-    ipcMain.handle('extractZip', (event, { filePath, expectName, unExpectName }: extractCongfig) => {
-      const extractPath = path.dirname(filePath)
-      return new Promise((resolve) => {
-        let exePath = ''
-        extract(filePath, {
-          dir: extractPath,
-          onEntry: (entry) => {
-            if (entry.fileName.indexOf(expectName) > -1 && entry.fileName.indexOf(unExpectName) < 0) {
-              exePath = path.join(extractPath, entry.fileName)
+    ipcMain.handle(
+      'extractZip',
+      (event, { filePath, expectName, unExpectName }: extractCongfig) => {
+        const extractPath = path.dirname(filePath)
+        return new Promise((resolve) => {
+          let exePath = ''
+          extract(filePath, {
+            dir: extractPath,
+            onEntry: (entry) => {
+              if (
+                entry.fileName.indexOf(expectName) > -1 &&
+                entry.fileName.indexOf(unExpectName) < 0
+              ) {
+                exePath = path.join(extractPath, entry.fileName)
+              }
             }
-          },
+          })
+            .then(() => {
+              resolve({ result: 1, exePath })
+            })
+            .catch(() => {
+              resolve({ result: 0, exePath })
+            })
         })
-          .then(() => {
-            resolve({ result: 1, exePath })
-          })
-          .catch(() => {
-            resolve({ result: 0, exePath })
-          })
-      })
-    })
+      }
+    )
     // 执行命令行
     ipcMain.handle('exec', async (event, command: string) => {
       return new Promise((resolve) => {
@@ -247,11 +258,11 @@ export default class WindowApp {
     })
     // 修改本机配置
     ipcMain.handle('setLocalConfig', (event, key: string, value: any) => {
-      return this.store.set(key, value);
+      return this.store.set(key, value)
     })
     // 获取本机配置
     ipcMain.handle('getLocalConfig', (event, key: string) => {
-      return this.store.get(key);
+      return this.store.get(key)
     })
   }
   // 刷新处理
@@ -259,23 +270,28 @@ export default class WindowApp {
     if (isDevelopment) {
       // 手动处理刷新
     } else {
-      logger.debug("CommandOrControl+R is pressed: Shortcut Disabled");
+      logger.debug('CommandOrControl+R is pressed: Shortcut Disabled')
     }
   }
   // 创建窗口
   private async createWindow() {
     this.mainWindow = new BrowserWindow({
-      width: 1920,
-      height: 1080,
-      minWidth: 1280,
-      minHeight: 720,
+      // width: 1920,
+      // height: 1240,
+      // minWidth: 960,
+      // minHeight: 620,
+      width: 980,
+      height: 650,
+      minWidth: 980,
+      minHeight: 650,
+      resizable: true,
       webPreferences: {
         // Use pluginOptions.nodeIntegration, leave this alone
         // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
         nodeIntegration: true,
         contextIsolation: false
       },
-      frame: false,
+      frame: false
     })
 
     this.mainWindow.hookWindowMessage(WM_DEVICECHANGE, () => {
@@ -290,9 +306,11 @@ export default class WindowApp {
 
     if (process.env.WEBPACK_DEV_SERVER_URL) {
       // Load the url of the dev server if in development mode
-      await this.mainWindow.loadURL(process.env.WEBPACK_DEV_SERVER_URL as string)
+      await this.mainWindow.loadURL(
+        process.env.WEBPACK_DEV_SERVER_URL as string
+      )
       logger.info('loadURL complete')
-      if (!process.env.IS_TEST) this.mainWindow.webContents.openDevTools()
+      // if (!process.env.IS_TEST) this.mainWindow.webContents.openDevTools()
     } else {
       createProtocol('app')
       // Load the index.html when not in development
@@ -341,7 +359,7 @@ export default class WindowApp {
         click: () => {
           this.downloadManager.cancel('ALL')
           app.quit()
-        },
+        }
       }
     ])
   }

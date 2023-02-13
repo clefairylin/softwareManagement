@@ -1,19 +1,43 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/home/HomeView.vue'
+import HomeView from '@/views/home/HomeView.vue'
+import TreasureView from '@/views/treasure/TreasureView.vue'
+import DownloadView from '@/views/download/DownloadView.vue'
+import UninstallView from '@/views/uninstall/UninstallView.vue'
+import SettingView from '@/views/setting/SettingView.vue'
+
+export enum routeEnum {
+  HOME = '/',
+  TREASURE = '/treasure',
+  DOWNLOAD = '/download',
+  UNINSTALL = '/uninstall',
+  SETTING = '/setting'
+}
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: routeEnum.HOME,
     name: 'home',
     component: HomeView
   },
   {
-    path: '/setting',
+    path: routeEnum.TREASURE,
+    name: 'treasure',
+    component: TreasureView
+  },
+  {
+    path: routeEnum.UNINSTALL,
+    name: 'unisntall',
+    component: UninstallView
+  },
+  {
+    path: routeEnum.DOWNLOAD,
+    name: 'download',
+    component: DownloadView
+  },
+  {
+    path: routeEnum.SETTING,
     name: 'setting',
-    // route level code-splitting
-    // this generates a separate chunk (i18n.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "i18n" */ '../views/setting/SettingView.vue')
+    component: SettingView
   }
 ]
 
